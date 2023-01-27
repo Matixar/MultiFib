@@ -22,7 +22,7 @@ jobs:
             image: matixar/lab:fib-worker
           - dockerfile: ./Dockerfile
             context: nginx
-            image: matixar/lab:fib-router  
+            image: matixar/lab:fib-nginx  
     
     steps:
 
